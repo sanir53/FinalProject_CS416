@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css"></link>
+        <title>NYC Temprature Trend</title>
+    </head>
+    <body>
+        <div id="heading">
+            <h2> New York City - Minimum Temprature Trend throughout year 2020</h2>
+        <div id="buttons" >
+        <a href="Page2.html" class="previous round">&#8249;</a>
+        <a href="Page1.html" class="next round">&#8250;</a>
+    </div>
+
+        <div id="wrapper" class="wrapper">
+
+            <div id="tooltip" class="tooltip">
+                <div class="tooltip-date">
+                    <span id="date"></span>
+                </div>
+                <div class="tooltip-temperature">
+                    Minimum Temperature: <span id="temperature"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="line.js"></script>
+    </body>
+</html>

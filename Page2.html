@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Page2.css">
+    </link>
+    <title>Heatmap by Weather Metrics</title>
+</head>
+
+<body>
+    <div id="hd">
+            <h2> New York City 2020 Weather Metrics Data - Distribution over Months</h2>
+        <div id="buttons" >
+        <a href="Page1.html" class="previous round">&#8249;</a>
+        <a href="index.html" class="next round">&#8250;</a>
+    </div>
+    <div id="heading" class="heading">
+        <h2 id="metric" class="metric"></h2>
+        <div class="legend">
+            <div class="legend-text" id="legend-min"></div>
+            <div class="legend-gradient" id="legend-gradient"></div>
+            <div class="legend-text" id="legend-max"></div>
+        </div>
+    </div>
+
+    <div id="wrapper" class="wrapper"></div>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="chart.js"></script>
+</body>
+
+</html>
