@@ -74,6 +74,7 @@ async function drawLineChart() {
       .attr("class", "line")
       .attr("d", lineGenerator(dataset))
 
+
   // 6. Draw peripherals
 
   const yAxisGenerator = d3.axisLeft()
@@ -161,6 +162,7 @@ async function drawLineChart() {
     tooltip.style("opacity", 0) // Hide our tooltip
     tooltipCircle.style("opacity", 0) // Hide our tooltip circle
   }
+ 
 
 }
 drawLineChart()

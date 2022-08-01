@@ -204,5 +204,6 @@ async function updatingBars() {
     selectedMetricIndex = (selectedMetricIndex + 1) % (metrics.length - 1)
     drawHistogram(metrics[selectedMetricIndex])
   }
+
 }
 updatingBars()
